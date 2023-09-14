@@ -20,7 +20,7 @@ export const Home = () => {
     return (
         <div className="homePage">
             <div className="content">
-                <h1>Weather App</h1>
+                <h1>Weather Apppppp</h1>
                 {auth.user && <h5>Welcome, {auth.user?.name}</h5>}
                 {auth.user && <button onClick={handleOpen}>Let´s See</button>}
                 {!auth.user && <h5>Sign In for Private Content </h5>}
