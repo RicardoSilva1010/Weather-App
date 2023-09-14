@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400');
+
+.current-weather_hour{
+    background: rgba(255, 255, 255, 0.6);
+    padding: 2px 67px;
+    border-radius: 7px;
+    font-size: 19px;
+    margin-bottom: 18px;
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.iconTime{
+    display: flex;
+    margin-right: 5px;
+}
+
+.title{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    margin: 2px 10px 0px 0px;
+    font-size: 18px;
+}
+
+.lastType{
+    font-size: 16px;
+    margin-top: 4px;
+}

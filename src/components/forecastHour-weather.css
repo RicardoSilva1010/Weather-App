@@ -1,0 +1,77 @@
+.forecastHour{
+    box-sizing: border-box;
+    width: 100%;
+    background: white;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.forecastHour h3{
+    font-size: 25px;
+
+}
+
+.forecastHour-item{
+    padding: 0px 30px;
+    border-right: 1px solid #b4b4b4;
+}
+
+
+:last-of-type{
+    border-right:0px;
+}
+
+
+.forecastHour-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: scroll;
+    margin: 0 10%;
+}
+
+ ::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #747474;
+    border-radius: 5px;    
+}
+
+.forecastHour-item_hour{
+    margin: 0;
+    font-size: 20px;
+    margin: 0px;
+    color: #b4b4b4;
+}
+
+.forecastHour-item_temp{
+    font-size: 20px;
+    margin: 0px;
+}
+
+.forecastHour-item_description{
+    font-size: 20px;
+
+}
+
+@media(max-width:1324px){
+    .forecastHour-items{
+        display: block;
+    }
+
+    .forecastHour-item{
+        border-top: 1px solid #b4b4b4;
+        border-right: 0px;
+    }
+
+    :first-of-type{
+        border-top:0px;
+    }
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400');
+
+.search-bar {
+    width: 30%;
+    max-width: 400px;
+    min-width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    font-family: 'Poppins' sans-serif;
+}
+
+.search-bar_form{
+    display: flex;
+}
+
+.search-bar_input, .search-bar_button{
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    
+}
+
+.search-bar_button{
+    border-left: 0px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius:7px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.search-bar_input{
+    border-left:1px solid white;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    flex-grow: 1;
+    
+}
