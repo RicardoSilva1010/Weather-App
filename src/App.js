@@ -28,7 +28,7 @@ function App() {
         {auth.user && <button onClick={handleLogout}>Logout</button>} 
       </nav> 
         <Routes>
-          <Route path="/Weather-App" element={<Home />} />
+          <Route path="" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/private" element={<RequireAuth><ProtectPage /></RequireAuth>} />
         </Routes> 
