@@ -1,6 +1,6 @@
 Weather App com sistema de login.
 
-!! [https://ricardosilva1010.github.io](https://ricardosilva1010.github.io/Weather-App/) !! LIVE SITE
+!! [https://ricardosilva1010.github.io](https://ricardosilva1010.github.io/) !! LIVE SITE
 
 !! email e password pode escrever qualquer coisa, é só para explicar a ideia de atribuir token a um user !!
 
