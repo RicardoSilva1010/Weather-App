@@ -21,14 +21,14 @@ function App() {
     <div className="App">
       <nav>
         <div className='link'>
-          <Link to="/">Home</Link>
+          <Link to="/Weather-App">Home</Link>
           <Link to="/private">Weather Forecast</Link>
         </div>
         {/* Quando existir user logado aparece botão logout */}
         {auth.user && <button onClick={handleLogout}>Logout</button>} 
       </nav> 
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Weather-App" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/private" element={<RequireAuth><ProtectPage /></RequireAuth>} />
         </Routes> 
