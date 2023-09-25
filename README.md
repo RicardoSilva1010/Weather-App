@@ -1,4 +1,4 @@
-Weather App com sistema de login.
+Weather App com sistema de login em React.JS
 
 !! https://ricardosilva1010.github.io/Weather-App/ !! LIVE SITE
 
